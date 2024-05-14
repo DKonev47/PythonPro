@@ -9,8 +9,9 @@
 /fitness_center/<id>/trainer [get]
 /fitness_center/<id>/trainer/<trainer_id> [get]
 /fitness_center/<id>/trainer/<trainer_id>/rating [get, post, put]
-/fitness_center/<id>/services [get] 51
+/fitness_center/<id>/services [get]
 /fitness_center/<id>/services/<service_id> [get]
-/register [get, post] 6, 10
+/register [get, post]
 /fitness_center/<id>/loyality_programs [get]
 
+Не правильно понял задание
