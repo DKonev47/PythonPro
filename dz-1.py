@@ -14,4 +14,4 @@
 /register [get, post]
 /fitness_center/<id>/loyality_programs [get]
 
-Не правильно понял задание
+Неправильно понял задание
