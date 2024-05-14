@@ -1,14 +1,16 @@
-# /register
-# /login
-# /user_info
-# /fitness_center
-# /fitness_center/<id>
-# /fitness_center/<id>/trainer
-# /fitness_center/<id>/trainer/<trainer_id>
-# /fitness_center/<id>/services
-# /fitness_center/<id>/services/</services_id>
+/login [get, post]
+/user [get, put, post]
+/user/funds [get, post]
+/user/reservations [get, post]
+/user/reservations/<reservation_id> [get, put, delete]
+/user/checkout [get, post, put]
+/fitness_center [get]
+/fitness_center/<id> [get]
+/fitness_center/<id>/trainer [get]
+/fitness_center/<id>/trainer/<trainer_id> [get]
+/fitness_center/<id>/trainer/<trainer_id>/rating [get, post, put]
+/fitness_center/<id>/services [get] 51
+/fitness_center/<id>/services/<service_id> [get]
+/register [get, post] 6, 10
+/fitness_center/<id>/loyality_programs [get]
 
-# выбор языка
-# фото и видео зала
-# отзывы
-# пробное занятие
